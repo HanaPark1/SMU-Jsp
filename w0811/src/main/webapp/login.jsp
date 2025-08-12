@@ -25,8 +25,10 @@
 			<input type="text" name="id" value='<%= save_id %>'><br>
 			<label>패스워드</label>
 			<input type="text" name="pw"><br>
+			<label>닉네임</label>
+			<input type="text" name="nickname"><br>
 			<label>아이디저장</label>
-			<input type="checkbox" name="checkId" value="1" <%if(!save_id.equals("")) out.println("checked"); %>>
+			<input type="checkbox" name="checkId" value="1" >
 			<input type="submit" value="전송">
 		</form>
 	</body>
